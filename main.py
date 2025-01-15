@@ -131,6 +131,7 @@ class Application(tk.Tk):
         form_items = {
             "Name": {
                 "type": "combobox",
+                "can_edit": False,
                 "values": load_people
             },
             "Date": {

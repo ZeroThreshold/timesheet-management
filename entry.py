@@ -108,7 +108,7 @@ root.geometry("800x600+300+150")  # Centered on the screen
 root.configure(bg="#222")
 
 # Load image
-img = Image.open("logo.png")  # Replace with your image file
+img = Image.open("mylogo.png")  # Replace with your image file
 img = img.resize((img.width, img.height))  # Maintain original size
 img_tk = ImageTk.PhotoImage(img)
 
